@@ -28,3 +28,14 @@ window#waybar {
   font-weight: bold;
   padding: 0 8px;
 }
+
+tooltip {
+  background: rgba(29, 8, 42, 1.0);
+  border: 1px solid rgba(126, 79, 174, 1.0);
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+tooltip label {
+  color: white;
+}
