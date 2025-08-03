@@ -3,6 +3,11 @@
     "interval": 60,
     "format": "{:%H:%M|%d.%m}",
     "tooltip": false
+  },
+
+  "keyboard": {
+    "format": "{short}",
+    "tooltip": false
   }
 }
 
