@@ -1,0 +1,19 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top",
+    "margin-top": 5,
+    "margin-left": 15,
+    "margin-right": 15,
+    "margin-bottom": 0,
+    "height": 42, 
+    "spacing": 0, 
+
+
+    "modules-left": [],
+    "modules-center": [],
+    "modules-right": ["keyboard","clock"],
+
+    "include": [
+		"~/.config/waybar/modules.json"
+	]
+}
