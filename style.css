@@ -24,7 +24,7 @@ window#waybar {
   border: 1px solid rgba(62, 35, 97, 0.986);
 }
 
-#clock, #keyboard {
+#clock, #language {
   font-weight: bold;
   padding: 0 8px;
 }
