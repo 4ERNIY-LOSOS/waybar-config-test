@@ -11,7 +11,7 @@
 
     "modules-left": [],
     "modules-center": [],
-    "modules-right": ["hyprland/language","clock"],
+    "modules-right": ["pulseaudio", "hyprland/language","clock"],
 
     "include": [
 		"~/.config/waybar/modules.json"

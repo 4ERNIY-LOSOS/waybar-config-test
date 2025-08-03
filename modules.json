@@ -5,6 +5,23 @@
     "tooltip": false
   },
 
+  "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": " {volume}%",
+    "on-click": "pavucontrol",
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+    "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["", "", ""]
+    }
+  },
+
   "hyprland/language": {
     "format": "{}",
     "format-en": "US",
