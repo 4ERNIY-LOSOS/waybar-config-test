@@ -6,8 +6,9 @@
   },
 
   "hyprland/language": {
-    "format": "{short}",
-    "tooltip": false
+    "format": "{}",
+    "format-en": "US",
+    "format-ru": "RU"
   }
 }
 
